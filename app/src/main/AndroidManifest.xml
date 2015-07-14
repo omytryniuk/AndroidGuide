@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The code is used from http://androidexample.com/Show_AutoComplete_Suggestions_-_Android_Example/index.php?view=article_discription&aid=105&aaid=127-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.student.lab3c" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Help"
+            android:label="@string/title_activity_help" >
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name=".Terminology"
+            android:label="@string/title_activity_terminology" >
+        </activity>
+        <activity
+            android:name=".AutoComplete"
+            android:label="@string/title_activity_auto_complete" >
+        </activity>
+
+
+    </application>
+
+</manifest>

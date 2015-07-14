@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffa1a1a1"
+    android:padding="15dp">
+
+
+
+    <AutoCompleteTextView
+            android:id="@+id/Terms"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:width="250dip"
+            android:layout_column="0"
+        android:layout_above="@+id/chan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chan"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Please, type a term"
+        android:id="@+id/term1"
+        android:layout_above="@+id/Terms"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="42dp" />
+
+
+</RelativeLayout>
